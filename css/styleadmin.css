@@ -1,0 +1,138 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: Franklin Gothic Medium;
+	margin-top: 70px;
+}
+
+header{
+	background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),  url(../1.jpeg);
+	background-size:  cover;
+	background-position: center;
+	height: 120vh;
+}
+
+ul{
+	float: right;
+	list-style-type: none;
+	margin-top: -45px;
+}
+
+ul li{
+	display: inline-block;
+
+}
+
+ul li a{
+	text-decoration: none;
+	color: #fff;
+	padding: 5px 62px;
+	border: 1px solid transparent;
+	transition: 0.5s ease;
+	font-size: 20px;
+
+}
+
+ul li a:hover{
+	background-color: #eee8aa;
+	color: #000;
+}
+
+.logintitle{
+	  position: absolute;
+	  top: 1.7%;
+	  left: 28.8%;
+	  transform: translate(-50%,-50%);
+}
+
+.logintitle t1{
+	color: 	#0000ff;
+	font-size: 50px;
+	font-family: "Aharoni"
+}
+
+.logo img{
+	float: left;
+	width: 150px;
+	height: 100px;
+	margin-left: -5px;
+	margin-top: -120px;
+}
+
+.box{
+	width: 320px;
+	height: 500px;
+	background-color: #000000b3;
+	color: #fff;
+	position: absolute;
+	transform: translate(-50%,-50%);
+	left: 50%;
+	top: 80%;
+	padding: 70px 30px;
+	box-sizing: border-box;
+	border-radius: 10px;
+}
+
+.man{
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	position: absolute;
+	top: -125px;
+	left: calc(50% - 50px);
+}
+
+h1{
+	margin: -20px;
+	padding: 0 0 0px;
+	text-align: center;
+	font-size: 30px;
+}
+
+.box input{
+	width: 100%;
+	margin-bottom: -10px;
+}
+
+.box input[type="text"],input[type="password"]
+{
+	border: none;
+	border-bottom: 1px solid #fff;
+	background-color: transparent;
+	outline: none;
+	height: 40px;
+	color: #fff;
+	font-size: 20px;
+}
+
+.box input[type="submit"]
+{
+	border: none;
+	outline: none;
+	height: 40px;
+	background-color: #fb2525;
+	color: #fff;
+	font-size: 20px;
+	border-radius: 20px;
+	transition: 0.4s ease;
+}
+
+.box input[type="submit"]:hover
+{
+	cursor: pointer;
+	background-color: #ffc107;
+	color: #000;
+}
+
+.box a{
+	text-decoration: none;
+	font-size: 12.8px;
+	line-height: 20px;
+	color: darkgrey;
+	transition: 0.4s ease; 
+}
+
+.box a:hover{
+	color: #ffc107;
+
+}
